@@ -1,0 +1,681 @@
+/* estilos para  proceso de reservas */
+
+
+/* barra de progreso de reserva */
+
+#bar_res
+{
+	width:968px;
+	height:30px;
+	float:left;
+	/*padding-top:13px;*/
+	margin-top:13px;
+	padding-top:0px;
+	background-image:url(../images/bg_sepb.jpg);
+	background-repeat:repeat-x;
+}
+#bar_res ul
+{
+	clear:both;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	width:970px;
+	height:30px;
+	display:block;
+}
+#bar_res ul li
+{
+	float:left;
+	border:0px;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#bar_res ul .text_info
+{
+	color:#FFF;
+	border:0px;
+	
+	background-position:right;
+	background-repeat:no-repeat;
+	padding-right:0px;
+	padding-left:0px;
+	text-align:center;
+	height:30px;
+}
+#bar_res ul .text_info span
+{
+	background-image:url(../images/bg_sepr.jpg);
+	background-repeat:repeat-x;
+	padding-right:22px;
+	padding-left:40px;
+	padding-top:7px;
+	margin-left:0px;
+	margin-right:0px;
+	display:block;
+	height:23px;
+}
+#bar_res ul .text_select1
+{
+	color:#666666;
+	background-image:url(../images/sepn_barp.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-right:0px;
+	padding-left:16px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	height:30px;
+	border:0px;
+	
+}
+#bar_res ul .text_select1 span
+{
+    background-image:url(../images/bg_sepb.jpg);
+	background-repeat:repeat-x;
+    padding-right:30px;
+	padding-left:32px;
+	padding-top:7px;
+	margin-left:0px;
+	margin-right:0px;
+	display:block;
+	height:23px;
+}
+#bar_res ul .text_select1 span strong
+{
+	color:#9B1111;
+}
+/* Primer marcador hover */
+#bar_res ul .text_select1H
+{
+	color:#666666;
+	background-image:url(../images/sepr_barp.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-right:0px;
+	padding-left:16px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	height:30px;
+	border:0px;
+	
+}
+#bar_res ul .text_select1H span
+{
+    background-image:url(../images/bg_sepg);
+	background-repeat:repeat-x;
+    padding-right:30px;
+	padding-left:32px;
+	padding-top:7px;
+	margin-left:0px;
+	margin-right:0px;
+	display:block;
+	height:23px;
+}
+/* fin primer marcador hover */
+
+#bar_res ul .text_select
+{
+	color:#666666;
+	background-image:url(../images/sepb_barp.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-right:0px;
+	padding-left:16px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	height:30px;
+	border:0px;
+	
+}
+#bar_res ul .text_select span
+{
+    background-image:url(../images/bg_sepb.jpg);
+	background-repeat:repeat-x;
+    padding-right:30px;
+	padding-left:32px;
+	padding-top:7px;
+	margin-left:0px;
+	margin-right:0px;
+	display:block;
+	height:23px;
+}
+#bar_res ul .text_select span strong
+{
+	color:#9B1111;
+}
+
+
+/* Cuerpo de las reservas */
+#sub_wrapper_int
+{
+	width:100%;
+	height:auto;
+	display:table;
+	visibility:visible;
+	background-color:#F2F2F0;
+}
+/* Para disponibilidad */
+#list_vuelos
+{
+	
+	width:906px;
+	background-color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:60px;
+	border-left:1px solid #DADAD8;
+	border-right:1px solid #DADAD8;
+	margin-top:0px;
+	padding-top:10px;
+	padding-left:30px;
+	padding-right:30px;
+}
+#list_vuelos h1
+{
+	font-size:19px;
+	margin-top:5px;
+	margin-bottom:9px;
+	padding-top:0px;
+	padding-bottom:8px;
+	border-bottom:1px solid #E3E3E3;
+}
+
+#sub_list_vuelos
+{
+	width:906px;
+}
+#sub_list_vuelos h1
+{
+	background-image:url(../images/vin_tit.jpg);
+	background-position:5px 3px;
+	background-repeat:no-repeat;
+	color:#9B1111;
+	float:left;
+	
+	margin-bottom:16px;
+	margin-top:16px;
+	font-size:17px;
+	padding-left:20px;
+	padding-bottom:8px;
+	font-weight:normal;
+	border-bottom:1px solid #E6C2C2;
+}
+#sub_list_vuelos h1 span
+{
+	font-size:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#414141;
+	font-weight:normal;
+	float:right;
+	padding-top:4px;
+}
+#sub_list_vuelos h2.tit_ida
+{
+	font-size:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-image:url(../images/icon_ida.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:40px;
+}
+#sub_list_vuelos h2.tit_vuelta
+{
+	font-size:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-image:url(../images/icon_vuelta.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:40px;
+}
+form
+{
+	margin:0px;
+	padding:0px;
+}
+form .btn_reserva
+{
+	width:142px;
+	height:33px;
+	border:0px;
+	background-image:url(../images/btn_vuelo1.jpg);
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+form .btn_reserva:hover
+{
+	background-image:url(../images/btn_vuelo1H.jpg);
+	background-repeat:no-repeat;
+}
+form .btn_reserva2
+{
+	width:200px;
+	height:33px;
+	border:0px;
+	background-image:url(../images/btn_vuelo2.jpg);
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+form .btn_reserva2:hover
+{
+	background-image:url(../images/btn_vuelo2H.jpg);
+	background-repeat:no-repeat;
+}
+
+form .btn_reserva3
+{
+	width:235px;
+	height:33px;
+	border:0px;
+	background-image:url(../images/btn_vuelo3.jpg);
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+form .btn_reserva3:hover
+{
+	background-image:url(../images/btn_vuelo3H.jpg);
+	background-repeat:no-repeat;
+}
+
+
+/*tablas*/
+.tab_reservas
+{
+	margin-bottom:25px;
+}
+.tab_reservas th
+{
+	background-color:#F2F2F0;
+	border-top:1px solid #E4E4E4;
+	border-bottom:1px solid #E4E4E4;
+	color:#9B1013;
+	padding-top:12px;
+	padding-bottom:12px;
+	vertical-align:middle;
+}
+.tab_reservas td.fila1
+{
+	background-color:#FFF;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px solid #E4E4E4;
+	text-align:center;
+}
+.tab_reservas td.fila2
+{
+	background-color:#F2F2F0;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px solid #E4E4E4;
+	text-align:center;
+	font-weight: bold;
+}
+.carrusel
+{
+	width:320px;
+	height:62px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.dsp_r
+{
+	width:14px;
+	height:60px;
+	float:left;
+}
+.dsp_r a
+{
+	background-image:url(../images/btnr_res.jpg);
+	background-repeat:no-repeat;
+	text-decoration:none;
+	width:14px;
+	height:14px;
+	float:left;
+	margin-top:22px;
+}
+.dsp_r a:hover{
+	background-image:url(../images/btnr_resH.jpg);
+	background-repeat:no-repeat;
+}
+.dsp_l
+{
+	width:14px;
+	height:60px;
+	float:left;
+}
+.dsp_l a
+{
+	background-image:url(../images/btnl_res.jpg);
+	background-repeat:no-repeat;
+	text-decoration:none;
+	width:14px;
+	height:14px;
+	float:left;
+	margin-top:22px;
+}
+.dsp_l a:hover{
+	background-image:url(../images/btnl_resH.jpg);
+	background-repeat:no-repeat;	
+}
+.my_carrusel
+{
+	position:relative;
+	overflow:hidden;
+	width:290px;
+	float:left;
+	height:62px;	
+}
+.carrusel ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	height:62px;
+	
+	position:relative;
+	top:0px; /*(se desplaza a razon de -45px)*/
+	
+}
+.carrusel ul li
+{
+	margin:0px;
+	padding:0 0 5px 0;
+	float:left;
+	text-align:center;
+	width:96px;
+	height:60px;
+}
+.carrusel ul li span
+{
+	font-size:10px;
+	display:block;
+	text-align:center;
+}
+.carrusel ul li strong
+{
+	color:#9B1013;
+	display:block;
+}
+.carrusel ul li a
+{
+	color: #414141;
+	text-decoration: underline;
+	display: block;
+	cursor: pointer;
+}
+.carrusel ul li a:hover
+{
+	color:#D8171C;
+	text-decoration:underline;
+}
+.tab_personas
+{
+	margin-bottom:25px;
+	border-bottom:1px solid #E4E4E4;
+	padding-bottom:10px;
+}
+.tab_personas th
+{
+	background-color:#F2F2F0;
+	border-top:1px solid #E4E4E4;
+	border-bottom:1px solid #E4E4E4;
+	color:#9B1013;
+	padding-top:12px;
+	padding-bottom:12px;
+	vertical-align:middle;
+}
+.tab_personas th span
+{
+	margin-left:30px;
+}
+.tab_personas td
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.tab_personas a
+{
+	color:#D8171C;
+	text-decoration:none;
+	display:block;
+}
+.tab_personas a:hover
+{
+	color:#D8171C;
+	text-decoration:underline;
+}
+.div_exe
+{
+	width:906px;
+	margin-top:20px;
+	margin-bottom:40px;
+	
+}
+.div_exe p
+{
+	float:left;
+}
+.div_exe .btn_reserva
+{
+	float:right;
+}
+.div_exe .btn_reserva2
+{
+	float:right;
+}
+
+.div_exe .btn_reserva3
+{
+	float:right;
+}
+
+
+.div_exe a
+{
+	color:#9B1013;
+	text-decoration:none;
+}
+.div_exe a:hover
+{
+	color:#9B1013;
+	text-decoration:underline;
+}
+.my_carrusel .radio, .tab_personas .radio
+{
+	margin-left:40px;
+}
+
+
+
+/*tabla detalle*/
+.div_detalle
+{
+	width:906px;
+	padding-bottom:20px;
+	float:left;
+}
+.div_detalle1
+{
+	width:540px;
+	float:left;
+	margin-right:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.div_detalle2
+{
+	width:313px;
+	float:left;
+	margin-top:10px;
+	padding:10px;
+	border:1px solid #F2CBCC;
+	background-color:#FDF9FA;
+}
+.div_detalle2 h2
+{
+	margin-top:0px;
+	margin-bottom:15px;
+	font-size:14px;
+	color:#9C1013;
+}
+.div_detalle .alert_1
+{
+	background-color:#FBD7D8;
+	border:1px solid #EA5A57;
+	padding:10px;
+	margin-bottom:10px;
+}
+.div_detalle .alert_1 p
+{
+	margin-top:5px;
+	color:#9B1013;
+}
+
+
+/* Formularios gerenates del sistema */
+
+#sub_list_vuelos .select1
+{
+	width:164px;
+	height:21px;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#414141;
+	border:1px solid #C7C7C7;	
+	
+}
+#sub_list_vuelos .select2
+{
+	width:78px;
+	height:21px;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#414141;
+	border:1px solid #C7C7C7;		
+}
+
+#sub_list_vuelos .txtcal
+{
+	width:140px;
+	height:14px;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#414141;
+	float:left;
+	border:1px solid #C7C7C7;	
+	
+}
+#sub_list_vuelos .txtcap
+{
+	width:160px;
+	height:14px;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#414141;
+	float:left;
+	border:1px solid #C7C7C7;	
+}
+
+#sub_list_vuelos .btncal
+{
+	background-color:#F4F4F4;
+	background-image:url(../images/i_cal.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:21px;
+	height:19px;
+	border:1px solid #747472;
+	float:left;
+}
+#sub_list_vuelos .txt
+{
+	width:164px;
+	height:14px;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#414141;
+	float:left;
+	border:1px solid #C7C7C7;	
+
+}
+
+#sub_list_vuelos .btn1
+{
+	width:142px;
+	height:33px;
+	border:0px;
+	background-image:url(../images/btn_vuelo1.jpg);
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	cursor:pointer;
+}
+#sub_list_vuelos .btn1:hover
+{
+	background-image:url(../images/btn_vuelo1H.jpg);
+	background-repeat:no-repeat;
+}
+#sub_list_vuelos #desc_fpago
+{
+	width:860px;
+	height:30px;
+	margin-left:20px;
+	margin-right:20px;
+	float:left;
+	margin-top:0px;
+	margin-bottom:20px;
+	text-align:center;
+}
+.imprimir_pdf{
+	background-image: url(../imgs/imprimir.png);
+	height: 25px;
+	width: 76px;
+	cursor: pointer;
+	color: white !important;
+	float: left;
+	padding: 7px 0px 0px 41px;
+	font-size: 13px;
+	text-decoration: none;
+}
+.imprimir_pdf:hover{
+	background-image: url(../imgs/imprimi-hover.png);
+	text-decoration: none !important;
+}
+.descargar_pdf{
+	background-image: url(../imgs/exportar-pdf.png);
+	height: 31px;
+	width: 76px;
+	color: white !important;
+	cursor: pointer;
+	float: left;
+	padding: 0px 0px 0px 41px;
+	font-size: 11px;
+}
+.descargar_pdf:hover{
+	background-image: url(../imgs/exportar-pdf-hover.png);
+	text-decoration: none !important;
+}
+.descargar_pdf span{
+	margin-left: 17px;
+}
+.class_a {
+cursor: pointer;
+}

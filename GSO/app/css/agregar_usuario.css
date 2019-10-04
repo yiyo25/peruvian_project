@@ -1,0 +1,36 @@
+#agregar_usuario_frm{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;-moz-binding;
+	width: 510px;
+}
+#agregar_usuario_frm #c1{
+	text-align: left;
+	width: 200px;
+	float:left;	
+	height: 26px;
+}
+#agregar_usuario_frm #c2{
+	text-align: left;
+	width: 310px;
+	float:left;
+	height: 26px;	
+}
+
+
+#menu_form{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;-moz-binding;
+	width: 510px;
+}
+#menu_form #c1{
+	text-align: left;
+	width: 200px;
+	float:left;	
+	height: 26px;
+}
+#menu_form #c2{
+	text-align: left;
+	width: 310px;
+	float:left;
+	height: 26px;	
+}

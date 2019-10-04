@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/ApiLogin/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/ApiLogin/vendor/composer" />
+      <path value="$PROJECT_DIR$/ApiLogin/vendor/tracy/tracy" />
+    </include_path>
+  </component>
+</project>

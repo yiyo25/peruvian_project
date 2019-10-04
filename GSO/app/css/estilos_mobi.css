@@ -1,0 +1,225 @@
+/* CUERPO PAGINA*/
+* { padding:0; margin:0; outline: 0;}
+html, body { height:100%; }
+body { font-family:Arial, Helvetica, sans-serif; text-align:left; margin:0; padding:0; font-size:82%; /*82% es igual a 13px */ /*width: 260px;*/}
+.clear { clear:both !important; float:none !important; height:0 !important; padding:0 !important; }
+div.general_content, div.header, div.navegacion, div.footer {padding: 0 ; width:100%}
+div.general_content { min-height:100%; height: auto!important; height:100%; }
+
+div { padding:.45em .65em; }
+img { vertical-align:middle; }
+select, input { border:1px solid #a59a96; height:1.65em; font-size:1em; }
+p { margin:.5em 0; }
+form { margin:0; }
+a { color:#d97800; }
+a  img { border:0; }
+a.dark_grey { color:#444; text-decoration:none; }
+img { vertical-align:middle; }
+table { font-size:1em; border-collapse: collapse; border-spacing:0; empty-cells: show; border:0; width:100%; }
+caption { font-weight:bold; text-align:left; padding:0px .45em .65em;}
+td { padding:.45em .65em; }
+td input, td select {width:95%;}
+.red { color:#c6100f; }
+.yellow {color:#d97800;}
+.note01 { color:#aba19e; font-size:0.9em; }
+.note02 { color:#aba19e; font-size:1em; }
+.clear01 { clear:both; }
+.odd { background-color:#edeaea;}
+.lab02 { background-color:#ccc1c0 !important; border-color:#edeaea !important; }
+tr.odd td, tr.odd th  { background-color:#edeaea !important; }
+.total { background-color:#e4e4e4 !important; color:#444 !important; padding:.45em !important; }
+.total strong { font-size:1.3em; }
+.title { font-size:1.1em; font-weight:bold; text-transform:uppercase; padding:0; }
+.vm, .vm td, .vm div{ vertical-align:middle !important; }
+.vt, .vt td, .vt div{ vertical-align:top !important; }
+.vb, .vb td, .vb div{ vertical-align:bottom !important; }
+.price { color:#eba71e; font-weight:bold; font-size:1.4em; }
+.odd { background:#F5F5F3; }
+.lab01 { font-weight:bold; color:#666;}
+
+/* CABECERA */
+.head a, .head_small a { text-decoration:none; float:left; }
+.head { background:#f1f1f1; padding:0 !important; }
+.head a.language  { color:#000; text-decoration:none; float:right; text-align:right;margin:.5em .5em 0 0;}
+.head_small { background:#f1f1f1 url(/pda/TOUCH/images/bg_head_small.gif) top repeat-x; padding:0 !important; }
+.head_small a.logout  { display:inline-block; float:right; color:#FFF; text-decoration:none; background:#c8c5c4 url(/pda/TOUCH/images/bg_logout.gif) top repeat-x; vertical-align:middle; text-align:right; color:#FFF; padding:.2em; }
+
+/* CABECERA USUARIO */
+.user { text-align:right; font-weight:bold; font-size:0.9em; background:#f1f1f1; border-top:1px solid #FFF; }
+.user span { float:left; }
+.user a { color:#bb7d15; font-weight:normal; }
+.user span.points { color:#c6100f; font-weight:bold; text-align:center; white-space:nowrap; padding:0 1em; }
+.user span.logout { text-align:right; padding-left:1em; white-space:nowrap; float:right; }
+
+/* MIGAS DE PAN */
+.bread { background:#b8aca8 url(/pda/TOUCH/images/bg_bread.gif) top repeat-x; text-align:center; color:#FFF; text-transform:uppercase; font-weight:bold; font-size:.9em; }
+
+/* FOOT */
+div.footer { height: 3em; margin-top: -3.55em; background: url('/pda/TOUCH/images/bg_foot.gif') repeat-x scroll center top rgb(113, 105, 103); color: rgb(255, 255, 255); padding:.5em 0 0; text-align: center; }
+div.footer.inside { height: 2em; margin-top: -2.55em; }
+div.footer span { text-align: center; display:inline-block; }
+div.footer a { color: rgb(255, 255, 255); text-decoration: none; }
+div.footer img { vertical-align:middle; }
+
+/* MENU HOME */
+.main_menu td { vertical-align:top; text-align:center; width:33.3% }
+.main_menu a { color:#000;  text-decoration:none; }
+.main_menu.my_iberia { background:#d7d7d7; }
+.main_menu.my_iberia .title { color:#888; font-size:1.2em; font-weight:bold; border-bottom:1px solid #b5b5b5;  }
+
+/* BOTONES */
+table.buttons td { padding:0; text-align:left; }
+div.button { padding:0; }
+div.button a { text-decoration:none; }
+div.button span img { margin:0; padiing:0; display:inline-block; }
+div.button span.black, div.button span.white { display:inline-block; font-weight:bold; padding-right:.45em; white-space:nowrap; }
+div.button span.black { background:#454445 url(/pda/TOUCH/images/bg_bottom_black.gif) top repeat-x; color:#FFF; }
+div.button span.white { background:#f1f0f1 url(/pda/TOUCH/images/bg_bottom_white.gif) top repeat-x; color:#444; }
+
+/* TABLA MULTIFILAS */
+table.multirow { border-collapse:collapse; border-spacing:0; }
+table.multirow td { padding:.45em; }
+
+/* TABLA 01 */
+table.type01 { font-size:1em;}
+table.type01 th { font-size:1em; color:#aba19e; font-weight:bold; text-align:left; border-bottom:1px solid #c3b7b5; vertical-align:bottom; padding:1em .45em .25em; line-height:1em; }
+table.type01 tr.first th, table.type01 tr.first td { padding-top:0; }
+table.type01 td { vertical-align:top; padding:.6em .45em 0; }
+table.type01 td:first-child, table.type01 th:first-child { padding-left:.2em !important; }
+table.type01 td:last-child, table.type01 th:last-child { padding-right:0; }
+table.type01.multirow td { padding:.45em !important; }
+table td.lab_field01 { padding-bottom:0; }
+table.type01.multirow td.lab_field  { font-size:1em; }
+table.type01.multirow td:first-child { padding-left:.9em;  background:left 1em no-repeat; }
+/*
+.module01 table.type01.multirow td:first-child { background-image:url(/pda/TOUCH/images/bullet_grey.gif); }
+.module02 table.type01.multirow td:first-child { background-image:url(/pda/TOUCH/images/bullet_grey_dark.gif); }
+.module03 table.type01.multirow td:first-child {  background-image:url(/pda/TOUCH/images/bullet.gif); }
+*/
+.module03 table.type01 th { border-color:#c2b49a; color:#877764; }
+
+/*TABLA 02*/
+table.type02 { margin-top:.9em; border-bottom:1px solid #969696; font-size:1em; }
+table.type02 th { background-color:#969696; color:#FFF; font-weight:bold; padding:.45em .45em !important; text-align:left; vertical-align:middle; border-right:1px solid #cbcbcb; border-left:1px solid #cbcbcb; }
+table.type02 th:last-child { -webkit-border-top-right-radius:.65em; -moz-border-radius-topright:.65em; border-right:0; }
+table.type02 th:first-child { -webkit-border-top-left-radius:.65em; -moz-border-radius-topleft:.65em; border-left:0; }
+table.type02 td{ padding:.45em; background-color:#FFF; }
+table.type02 td:first-child, table.type02 td:last-child { background:#FFF url(/pda/TOUCH/images/pix_969696.gif) repeat-y; }
+table.type02 td:first-child { background-position:left;  padding-left:.45em !important; }
+table.type02 td:last-child { background-position:right; }
+td table.type02 { margin-top:0; }
+
+/*HORARIOS*/
+table.type02.schedule th.days, table.schedule td.days { width:100%; }
+table.type02.schedule th.days table { width:100%; }
+table.type02.schedule th.days table td { background:none; text-align:center; padding:0 !important; color:#FFF; text-align:center; }
+table.type02.schedule td.days table td {  background:none; text-align:center; padding:0 !important; }
+table.type02.schedule td.days table td.on { color:#cb7e00; }
+table.type02.schedule td.days table td.off { color:#999; }
+
+/*CAMPOS FORMULARIO*/
+.field { width:100%; white-space:nowrap; vertical-align:middle;}
+td.field { padding-top:.2em !important; }
+.field input, .field select { width:95%; font-size: 1.1em;}
+.lab_field { width:100%; font-weight:bold; font-size: 1.1em; }
+.lab_field01 {font-weight:bold; }
+
+/* MODULOS - SOLO CSS3 */
+.title_module { color:#887975; font-weight:bold; padding:0 0.45em; text-transform:uppercase; }
+.module01 { border:1px solid #a59a96; background-color:#FFF; padding:.75em; -webkit-border-radius:.65em; -moz-border-radius:.65em; font-size:1.1em; }
+.module01.links a { color:#444; text-decoration:none; font-weight:bold; }
+.module01.links td { vertical-align:middle; }
+.module02 { border:1px solid #a59a96; background-color:#e4dfde; color:#4e4a49; padding:.75em; -webkit-border-radius:.65em; -moz-border-radius:.65em; font-size:1em; }
+.module03 { border:1px solid #a59a96; background-color:#fefbd9; padding:1em; -webkit-border-radius:.65em; -moz-border-radius:.65em; margin-bottom:.45em; font-weight:bold; }
+
+/* ALERTA */
+.alert { font-weight:normal !important; }
+.alert img { float:left; margin-right:1em; }
+.alert .title { font-weight:bold; text-transform:uppercase; }
+
+/* BARRA */
+div.bar { display:inline-block; /* width:90px; */ width:6.92em; -webkit-border-radius:.65em; -moz-border-radius:.65em; height:.77em; /* height:10px; */ background:#d3d3d3; vertical-align:middle; margin:.45em; padding:0; }
+div.bar span { display:block; -webkit-border-radius:.65em; -moz-border-radius:.65em;  -webkit-border-bottom-right-radius:0; -moz-border-radius-bottomright:0; -webkit-border-top-right-radius:0; -moz-border-radius-topright:0; height:100%; background:url(/pda/TOUCH/images/bar.gif) repeat-x; }
+
+/* MODULO OFERTAS */
+.table_offer td { border-bottom:1px solid #a59a96; text-align:left; }
+.table_offer td.destination { font-weight:bold; }
+.table_offer td.destination a { color:#666; display:block; height:100%; }
+.table_offer td.detail { text-align:right; color:#999; font-weight:normal; line-height:1em; }
+.table_offer td.price { text-align:right; white-space:nowrap; }
+
+/*SELECCIï¿½N DE ASIENTOS*/
+table.seats { font-size:1em; }
+table.seats td { text-align:center; font-size:1.1em; padding:.05em;}
+table.seats .letter { color:#c61412; font-weight:bold; }
+table.seats .number { color:#c61412; font-weight:bold; font-size:1em;  }
+table.seats .aisle { width:.9em; height:.9em; }
+table.seats .no_seat, table.seats .begin_wing_left, table.seats .begin_wing_right, table.seats .wing_left, table.seats .wing_right, table.seats .end_wing_left, table.seats .end_wing_right { /* width:23px; height:26px; */ width:1.77em; height:2em; }
+table.seats caption { padding-bottom:.45em; font-size:1.1em; }
+table.seats .begin_wing_left { background:url(/pda/TOUCH/images/begin_wing_left.png) no-repeat bottom right; }
+table.seats .begin_wing_right { background:url(/pda/TOUCH/images/begin_wing_right.png) no-repeat bottom left; }
+table.seats .wing_left { background:url(/pda/TOUCH/images/wing_left.png) repeat-y right; }
+table.seats .wing_right { background:url(/pda/TOUCH/images/wing_right.png) repeat-y left; }
+table.seats .end_wing_left { background:url(/pda/TOUCH/images/end_wing_left.png) no-repeat top right; }
+table.seats .end_wing_right { background:url(/pda/TOUCH/images/end_wing_right.png) no-repeat top left; }
+ul.list_zones_plane { padding:0; margin-left:2em; list-style:outside square url("/pda/TOUCH/images/bullet_arrow_grey_light.png"); }
+ul.list_zones_plane li { padding:.5em 0; }
+ul.list_zones_plane a { color:#444; text-decoration:none; }
+
+/*CITA*/
+.quote { font-style:italic; font-weight:bold; font-size:1.1em; padding-left:1em; position:relative; margin-right:.92em; /* margin-right:12px; */ }
+.quote:before, .quote:after { font-size:2em; font-weight:normal; color:#666; position:absolute; margin-top:-.6em;  }
+.quote:before { left:0;  content:url("/pda/TOUCH/images/comma_open.png"); }
+.quote:after{  content:url("/pda/TOUCH/images/comma_close.png"); margin-left:.15em;}
+
+/* LISTAS */
+ul { padding:0; margin-left:2em; list-style:outside square url("/pda/TOUCH/images/bullet.gif"); }
+li { padding:.5em 0; }
+
+/* CAPA FONDO */
+/*.layer_black { position:absolute; z-index:50; top:0; bottom:0; left:0; right:0; background-color:#000; opacity:.5; display:none;width: 100%; }*/
+.layer_black {position: absolute;z-index:50;top:0; bottom:0; left:0; right:0;width: 100%; height: 100%;background-color: #000;z-index: 1;opacity: .5;filter: alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;display:none;}
+/*.layer_centre { position:absolute; z-index:100; left:50%; top:50%; width:280; margin-left:-150; margin-top:-25%; padding:1em; -webkit-border-radius:1em; -moz-border-radius:1em; background-color:#FFF; display:none; }*/
+
+/* CALENDARIO */
+div.calendar { position:absolute; z-index:100; left:50%; top:50%; /*width:280px; margin-left:-150px;*/ width:21.54em; margin-left:-11.54em; margin-top:-25%; padding:1em; -webkit-border-radius:1em; background:#FFF; }
+div.calendar .clear { height:auto !important; padding:.2em !important; }
+div.calendar p { color:#3c3c3c; padding:.3em; margin:0; text-align:center; position:relative; font-size:1.7em; padding-bottom:.5em; }
+div.calendar p span.txtmonth { color:#343434; font-weight:bold; }
+div.calendar p img { position:absolute; top:.3em; border:0; }
+div.calendar p img.backmonth { left:0; }
+div.calendar p img.nextmonth { right:0; }
+div.calendar span.nullDat { color:#ccc;font-size: 1em; font-weight:bold; }
+div.calendar img.nextmonth { float:right; padding-top:.1em; }
+div.calendar img.backmonth { float:left; padding-top:.1em; }
+div.calendar a { color:#676566; display:block; width:100%; height:100%; text-decoration:none; }
+div.calendar a:hover { background-color:#eaaf00; color:#FFF; }
+div.calendar table { width:100%; background-color:#FFF; border-spacing:0; border-collapse:collapse; }
+div.calendar table th { background-color:#f4f1ea; text-align:center; color:#676566; padding:.5em; font-size:.8em; }
+div.calendar table td { text-align:center; padding:.5em; color:#CCC;  }
+div.calendar table td.celdaOtroMes {color:#9d9d9d}
+div.calendar table td.nullDat {background-color:#858485}
+div.calendar table td.nullDat a { color:#FFF }
+div.calendar table strike { color:#9d9d9d; }
+div.calendar abbr { border:0; }
+#calendar1 img { border:0; vertical-align:bottom; }
+
+/* MAPA DE ASIENTOS */
+
+/* estilos para los pasajeros facturables en IBCOSM*/
+.formPasajeros label{padding-left:1.5em;float:left;clear:both; margin-bottom:0.2em;width: 85%;}
+.formPasajeros label.selected{padding-left:1.5em;background:url(/pda/TOUCH/images/sigMes.gif) no-repeat 0 2px;font-weight: bold;}
+
+/* estilos para los pasajeros no facturables o facturados en IBCOSM*/
+.formPasajerosFacturados label{padding-left:1.5em;float:left;clear:both; margin-bottom:0.2em;width: 85%;}
+
+/* mapa de asientos*/
+.tabla_asientos {font-size:1.1em;border-collapse:collapse;}
+.tabla_asientos td { padding:0; margin:0;text-align:center; }
+.tabla_asientos caption { padding-bottom:.45em; }
+/*.tabla_asientos td.letra { font-size:1.4em; font-weight:bold; padding-top:0.5em; }
+.tabla_asientos td.numero { font-size:1.2em; font-weight:bold; width:27px; }*/
+
+.widthStyleSmall{/*width: 13px;*/ width:1em;}
+.widthStyleBig{/*width: 15px;*/ width:1.15em;}
+.bgColor{background-color: #FFFFFF;}

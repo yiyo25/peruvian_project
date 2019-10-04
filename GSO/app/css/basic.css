@@ -1,0 +1,185 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://simplemodal.com
+ *
+ * Copyright (c) 2013 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ */
+
+#basic-modal-content {display:none;}
+#basic-modal-content3 {display:none; position:absolute;height: 350px;width: 100%;top:20px;}
+
+
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000;}
+
+/* Container */
+#simplemodal-container {height:auto; width:500px; color:#000; background-color:rgb(255, 255, 255); border:2px solid rgb(128, 122, 122); padding:12px;}
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../img/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+
+#table_nuevo{
+border:1px #006666 solid;	
+}
+.grabar:hover{
+	background: #F30101;
+	color:#FFF;
+	cursor:pointer;
+}
+.title_usu_nuevo{
+	text-align: left;
+	border-bottom: 1px rgb(129, 129, 129) solid;
+	margin-bottom: 5px;
+	width: 415px;
+	margin-left: 34px;
+}
+.title_usu_nuevo span{
+	padding-left:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight:bold;;
+}
+.usu_form_new{
+white-space: normal;
+line-height: normal;
+font-weight: normal;
+font-size: medium;
+font-variant: normal;
+font-style: normal;
+color: -webkit-text;
+text-align: start;	
+}
+.ip{
+	display:none;
+}
+.asignar{
+	float:left;
+	height: auto;
+	border:1px #FF0000 solid;
+	width: 300px;	
+	padding-left: 0px;
+	height:400px;
+	overflow-x:auto;
+}
+.asignar ul{
+	padding-top:0px;
+	padding-left:0px;
+}
+.asignar ul li{
+	padding-top:0px;
+	list-style:none;	
+	width: 100%;
+	border:1px #FFF700 solid;
+	float:left;	
+}
+.asignado{
+	
+	float:left;
+	margin-left: 60px;
+	height: 400px;
+	border:1px #FF0000 solid;
+	width: 300px;	
+	padding-left: 0px;
+	height:400px;
+	overflow-x:auto;	
+}
+
+.asignado ul{
+	padding-top:0px;
+	padding-left:0px;	
+}
+.asignado ul li{
+	padding-top:0px;
+	list-style:none;	
+	width: 100%;
+	border:1px #FFF700 solid;
+	float:left;	
+}
+.btn_asignar{
+	float:left;
+	margin-left: 0px;
+	margin-top:30px;
+	width: 90px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.asig_btn{
+	float:left;
+	margin-top:20px;
+}
+.asignado_btn{
+	float:left;
+	margin-top:20px;
+	margin-left: 60px;
+}
+.asignar_principal{
+	float:left;
+	width: 300px;;
+	height: auto;
+}
+.asignado_principal{
+	float:left;
+	width: 300px;
+	height: auto;
+}
+.basic3:hover{
+	cursor: pointer;
+}
+
+.btn_aisgnar{
+	border:0px;
+	background-image:url(../img/asignar.jpg);
+	width:142px;
+	height:30px;
+	float:left;
+	cursor:pointer;
+	text-align: center;
+	font-size:13px;
+	color:#FFFFFF;
+}
+.btn_aisgnar:hover{
+	cursor:pointer;
+	background-image:url(../img/asignarHover.jpg);	
+}
+.btn_borrar{
+	border:0px;
+	background-image:url(../img/borrarSeleccion.jpg);
+	width:166px;
+	height:30px;
+	float:left;
+	cursor:pointer;	
+	text-align: left;
+	font-size:13px;
+	padding-left:45px;
+	color:#FFFFFF;
+}
+.btn_borrar:hover{
+	border:0px;
+	background-image:url(../img/borrarSeleccionHover.jpg);	
+}
+#cabecera_asig .yuimenubaritemlabel {
+
+    white-space: nowrap;
+    font-size:110%;
+    display:block;
+    color:#000;
+    text-decoration:none;
+    z-index:100;
+}
+#cabecera_asig  .yuimenuitemlabel{
+text-align:left;
+	white-space: nowrap;
+    font-size:110%;
+    display:block;
+    color:#000;
+    text-decoration:none;
+    z-index:100;
+}
+

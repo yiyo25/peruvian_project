@@ -1,0 +1,94 @@
+div[fila="ok"]{
+width:100%;
+padding:0;
+margin:0;
+float:left;
+}
+div[col="ok"]{
+padding: 0px 10px 0px 10px;
+}
+div[col="ok"] label{
+padding: 5px 0px 5px 0px;
+}
+#separador{
+	height:3px;
+	background:rgb(150, 147, 147);
+	width:100%;
+	margin:70px 0px 20px 0px;
+}
+#col{
+	width:15%;
+	float:left;
+	text-align:center;
+	padding: 0px 2px 0px 2px;
+	border-right:1px groove rgb(224, 224, 224);
+	border-top:1px groove rgb(224, 224, 224);
+	height:65px;
+}
+#col label{
+	padding:20px 0px 20px 0px;
+}
+#fila{
+	width:100%;
+}
+#fila #col1{
+	width:20%;
+	padding:0px 10px 0px 10px;
+	float:left;
+}
+#fila #col2{
+	width:60%;
+	padding:0px 10px 0px 10px;
+	float:left;
+}
+#frm_search{
+	box-shadow: 6px 8px 22px #ADACAC;
+	border-radius: 5px;
+	border: 1px groove rgb(187, 187, 187);
+	margin-bottom: 33px;
+
+}
+.guardar_h{
+	background: #dc0000 !important;
+	background: -moz-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%) !important;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#dc0000),color-stop(48%,#cd0000),color-stop(100%,#bc0000)) !important;
+	background: -webkit-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%) !important;
+	background: -o-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%) !important;
+	background: -ms-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%) !important;
+	background: linear-gradient(to bottom,#dc0000 0,#cd0000 48%,#bc0000 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dc0000',endColorstr='#bc0000',GradientType=0) !important;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-ms-border-radius: 4px !important;
+	-o-border-radius: 4px !important;
+	border-radius: 4px !important;
+	border: #b00 !important;
+	color: #fff!important;
+	cursor: pointer !important;
+	display: block !important;
+	line-height: normal !important;
+	text-decoration: none !important;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.29) !important;
+	margin: 0 auto 15px !important;
+	padding: 10px 10px !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 1.1em !important;
+	width: 100% !important;
+
+}
+.guardar_h:hover{
+
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	border-radius: 0 !important;
+	border: #630000 !important;
+	background: #7d0e12 !important;
+	color: #fff !important;
+	cursor: pointer !important;
+	display: block !important;
+	text-shadow: 0 1px 0 rgba(155,0,0,0) !important;
+	width: 100% !important;
+	height: 2.9em !important;
+}

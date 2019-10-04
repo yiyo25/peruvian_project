@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+.fit {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bgHeader {
+    background: #dc0000 url(../imgs/bg_more.png) no-repeat right;
+}
+
+.bgRed {
+    background: #dc0000;
+    background: #dc0000 url(http://intranet.peruvian.pe/app/img/movil/sprite-light.png);
+    background: -moz-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#dc0000),color-stop(48%,#cd0000),color-stop(100%,#bc0000));
+    background: -webkit-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%);
+    background: -o-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%);
+    background: -ms-linear-gradient(top,#dc0000 0,#cd0000 48%,#bc0000 100%);
+    background: linear-gradient(to bottom,#dc0000 0,#cd0000 48%,#bc0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dc0000', endColorstr='#bc0000', GradientType=0);
+    padding: 0 0 15px;
+}
+
+.bg-gris {
+    background-image: -moz-linear-gradient(50% 0 -90deg,#eee 0,#dfdfdf 100%);
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#eee),color-stop(1,#dfdfdf));
+    background-image: -webkit-linear-gradient(-90deg,#eee 0,#dfdfdf 100%);
+    background-image: -o-linear-gradient(-90deg,#eee 0,#dfdfdf 100%);
+    background-image: -ms-linear-gradient(-90deg,#eee 0,#dfdfdf 100%);
+    background-image: linear-gradient(180deg,#eee 0,#dfdfdf 100%);
+}
+
+.bgHeaderSolid {
+    background: #D20001;
+    height: 44px;
+}
+
+.bgcover {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:before, .clearfix:after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
+
+body.wpini {
+    background: #d10101;
+}
+
+.userLogin {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 389px;
+  
+    margin: 150px auto 0;
+}
+
+    .userLogin .loginLogo {
+        background: url(../Images/logo_intranet.png) center center no-repeat;
+        text-indent: -9999px;
+        height: 94px;
+        margin: 0 0 5px;
+    }
+
+    .userLogin .formLogin {
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        border-radius: 12px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        /*background: #d10101; rojito*/
+        background: #009bce;
+        padding: 0;
+        width: 100%;
+    }
+
+        .userLogin .formLogin label {
+            display: block;
+            font-family: "Open Sans",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+        }
+
+        .userLogin .formLogin span {
+            /*padding-top: 30px;*/
+            display: block;
+            position: relative;
+           /* top: 25px;*/
+            text-align: center;
+            color: #FFF;
+            float:left;
+    left: 0px;
+    height: -24px;
+}
+.checkbox label {
+    color:#FFF !important;
+    font-size:11px !important;9
+}
+
+        .userLogin .formLogin label[for=rePassword] {
+            display: inline;
+            color: #535353;
+        }
+
+        .userLogin .formLogin input[type=text], .userLogin .formLogin input[type=password] {
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+            background: #fff;
+            border: #B9B9C8 solid 1px;
+            color: #525252;
+            height: 35px;
+            width: 100%;
+            padding: 4px;
+            margin: 0 0 28px;
+        }
+
+            .userLogin .formLogin input[type=text][type=password], .userLogin .formLogin input[type=password][type=password] {
+                font-size: 26px;
+            }
+
+        .userLogin .formLogin input[type=submit] {
+            /*background: #d10101;
+            display: inline-block;
+            float: right;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            border: #B00;
+            color: #fff;
+            cursor: pointer;
+            line-height: normal;
+            text-decoration: none;
+            text-shadow: 0 1px 0 rgba(0,0,0,.29);
+            margin: 0 auto 5px 20px;
+            padding: 3px 10px;
+            font-family: "Open Sans",Helvetica,Arial,sans-serif;
+            font-size: 1.1em;*/
+        }
+
+.ever {
+    background: red;
+}

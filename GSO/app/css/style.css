@@ -1,0 +1,93 @@
+header{
+	background: url("../img/logo.png") no-repeat 95% center,
+				url("../img/fondo.png");
+	background-size: 200px ,100px 100px;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0;
+	width: 100%;
+	height: 50px;
+}
+footer{
+	background: rgba(60,60,180,0.8);
+	bottom: 0;
+	color: #EEE;
+	font-size: 1.5em;
+	left: 0;
+	padding: 1em 0;
+	position: fixed;
+	width: 100%; 
+}
+#contenedor{
+	margin:0 auto;
+	width: 90%;
+	height: 100%;	
+}
+#side-bar{
+	width: 25%;
+	border-radius:5px;
+	height: 100%;
+	border:1px groove red;
+	float:left;
+}
+#contenido{
+	float: left;
+	width: 70%;
+	height: 20%;
+	padding: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 10px;
+	
+}
+#side-bar ul li,#side-bar ul{
+	list-style:none;
+	padding: 0px;
+	margin-left:5px;
+	display: inline-block;
+}
+#side-bar ul li a{
+	background: #D23D15;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	margin: 3px;
+	width: 243px;
+	
+	/*background: #D23D15;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	transition: all 0.5s ease;*/
+}
+#side-bar ul li a:hover{
+	background: #F59244;
+	color: black;
+	/*transform: scale(1.1) rotate(-2deg) !important;*/
+	transform: scale(1.1) ;
+}
+.mat{
+	/*width: 100%;
+	height: 500px;
+	background: rgba(216, 204, 204, 0.8);
+	box-shadow: rgba(255,255,255,0.2) 5px 5px 10px inset;
+	*/
+	background: rgba(0,0,0,0.8);
+	border-radius: 0.5em;
+	box-shadow: rgba(255,255,255,0.2) 5px 5px 10px inset;
+	display: inline-block;
+	height: 0;
+	margin: 0 0 6em 2%;
+	padding: 1em 1em 0;
+	opacity: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+	vertical-align: top;
+	width: 100%;
+	height: 500px;
+}
+

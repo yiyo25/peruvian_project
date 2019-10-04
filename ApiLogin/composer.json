@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tracy/tracy": "^2.3",
+        "firebase/php-jwt": "^5.0"
+    }
+}

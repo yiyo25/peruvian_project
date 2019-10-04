@@ -1,0 +1,19 @@
+<IfModule mod_headers.c>
+	Header set Access-Control-Allow-Origin "*"
+</IfModule>
+RewriteEngine On
+RewriteBase /Apilogin/
+
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.css$ 
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.png$ 
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.jpg$ 
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.js$ 
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.gif$ 
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.woff$
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.eot$
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.svg$
+rewriteCond %{REQUEST_FILENAME} !^(.+)\.woff2$
+
+RewriteRule ^([a-zA-Z0-9_-]+)/(.+)$ index.php?lan=$1&url=$2 [QSA,L]
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?lan=$1&url=index  [QSA,L]
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?lan=$1&url=index  [QSA,L]
